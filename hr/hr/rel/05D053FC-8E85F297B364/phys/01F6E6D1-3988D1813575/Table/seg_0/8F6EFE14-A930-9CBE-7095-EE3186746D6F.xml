@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="COUNTRIES" directorySegmentName="seg_0" id="8F6EFE14-A930-9CBE-7095-EE3186746D6F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-07-07 07:18:14 UTC</createdTime>
+<ownerDesignName>hr</ownerDesignName>
+<schemaObject>A249A0CF-8432-BB46-C108-580E83F16A26</schemaObject>
+<iotPctThreshold>50</iotPctThreshold>
+<logging>YES</logging>
+<organization>INDEX</organization>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A49503F6-10B5-F3CA-7D3B-ADBD3EDBDFF9</segment>
+<tableSpace>9D0B20DE-EF69-ADBC-6B93-DDFE4D0E5FE9</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_ID" id="3B1821F6-BE0C-BA2E-68B6-B1112D138C22">
+<createdBy>GGG</createdBy>
+<createdTime>2025-07-07 07:18:14 UTC</createdTime>
+<ownerDesignName>hr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY_NAME" id="7881F900-7C9F-D6E7-C790-68C267AC84F7">
+<createdBy>GGG</createdBy>
+<createdTime>2025-07-07 07:18:14 UTC</createdTime>
+<ownerDesignName>hr</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY_ID" id="A96C0BEA-2CC8-4419-1479-1B25D1617C5A">
+<createdBy>GGG</createdBy>
+<createdTime>2025-07-07 07:18:14 UTC</createdTime>
+<ownerDesignName>hr</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COUNTR_REG_FK" id="7D152106-585B-18EC-B1F4-1D1F09B6FF1D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-07-07 07:18:17 UTC</createdTime>
+<ownerDesignName>hr</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COUNTRY_C_ID_PK" id="E393BA60-30D4-33C1-77F4-814DFE7DA950">
+<createdBy>GGG</createdBy>
+<createdTime>2025-07-07 07:18:17 UTC</createdTime>
+<ownerDesignName>hr</ownerDesignName>
+<schemaObject>A249A0CF-8432-BB46-C108-580E83F16A26</schemaObject>
+<segment>A49503F6-10B5-F3CA-7D3B-ADBD3EDBDFF9</segment>
+<tableSpace>9D0B20DE-EF69-ADBC-6B93-DDFE4D0E5FE9</tableSpace>
+<indexSegment>A49503F6-10B5-F3CA-7D3B-ADBD3EDBDFF9</indexSegment>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
